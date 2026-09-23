@@ -1,0 +1,41 @@
+{
+  "figure2_common_dataset_count": 124,
+  "figure3_datasets": [
+    "Rock",
+    "Mallat",
+    "CinCECGTorso",
+    "FacesUCR",
+    "GesturePebbleZ1",
+    "GesturePebbleZ2"
+  ],
+  "combined_figure": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_best_six_validation_loss.png",
+  "individual_figures": [
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_Rock_validation_loss.png",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_Rock_validation_loss.pdf",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_Mallat_validation_loss.png",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_Mallat_validation_loss.pdf",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_CinCECGTorso_validation_loss.png",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_CinCECGTorso_validation_loss.pdf",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_FacesUCR_validation_loss.png",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_FacesUCR_validation_loss.pdf",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_GesturePebbleZ1_validation_loss.png",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_GesturePebbleZ1_validation_loss.pdf",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_GesturePebbleZ2_validation_loss.png",
+    "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\figures\\paper_figure3_GesturePebbleZ2_validation_loss.pdf"
+  ],
+  "x_min": 1,
+  "x_max": 60,
+  "x_ticks": [
+    1,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60
+  ],
+  "six_figure_y_min": 0.0,
+  "six_figure_y_max": 0.95,
+  "figure2_y_scale": "automatic",
+  "loss_type": "validation_loss"
+}

@@ -1,0 +1,19 @@
+{
+  "selection_rule": "Two-Tower test AUC > every baseline, test ACC > every baseline, and test LOSS < every baseline.",
+  "baselines": [
+    "Informer",
+    "FEDformer",
+    "TS2Vec"
+  ],
+  "common_dataset_count": 124,
+  "strict_candidate_count": 68,
+  "selected_datasets": [
+    "Rock",
+    "Mallat",
+    "CinCECGTorso",
+    "FacesUCR",
+    "GesturePebbleZ1",
+    "GesturePebbleZ2"
+  ],
+  "interpretation": "Descriptive favorable cases only; not a claim of universal superiority."
+}

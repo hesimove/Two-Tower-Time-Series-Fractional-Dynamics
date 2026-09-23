@@ -1,0 +1,10 @@
+Metric,Model,Dataset wins
+AUC,Correlation Two-Tower,31
+AUC,Transformer-only,30
+AUC,Two-Tower,63
+ACC,Correlation Two-Tower,34
+ACC,Transformer-only,40
+ACC,Two-Tower,50
+LOSS,Correlation Two-Tower,33
+LOSS,Transformer-only,32
+LOSS,Two-Tower,59

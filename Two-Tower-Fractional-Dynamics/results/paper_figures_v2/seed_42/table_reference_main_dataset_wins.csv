@@ -1,0 +1,13 @@
+Metric,Model,Dataset wins
+AUC,FEDformer,25
+AUC,Informer,12
+AUC,TS2Vec,7
+AUC,Two-Tower,80
+ACC,FEDformer,24
+ACC,Informer,16
+ACC,TS2Vec,6
+ACC,Two-Tower,78
+LOSS,FEDformer,23
+LOSS,Informer,7
+LOSS,TS2Vec,1
+LOSS,Two-Tower,93

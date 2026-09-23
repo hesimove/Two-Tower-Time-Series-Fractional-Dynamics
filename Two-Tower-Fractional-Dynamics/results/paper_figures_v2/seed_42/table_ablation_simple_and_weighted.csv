@@ -1,0 +1,4 @@
+Model,Datasets,Simple mean AUC,Simple mean ACC,Simple mean LOSS,Weighted AUC,Weighted ACC,Weighted LOSS
+Two-Tower,124,0.842285,0.664164,0.326820,0.900367,0.742196,0.218160
+Correlation Two-Tower,124,0.836959,0.658064,0.330849,0.897822,0.739144,0.221581
+Transformer-only,124,0.827740,0.647656,0.343323,0.892200,0.729459,0.228221

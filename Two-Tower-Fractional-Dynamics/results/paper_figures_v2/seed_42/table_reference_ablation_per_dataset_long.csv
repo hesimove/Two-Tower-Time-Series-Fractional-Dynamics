@@ -1,0 +1,373 @@
+Dataset,Model,AUC,ACC,LOSS,n_samples
+ACSF1,Correlation Two-Tower,0.926778,0.630000,0.185139,100
+ACSF1,Transformer-only,0.925667,0.690000,0.183910,100
+ACSF1,Two-Tower,0.927778,0.620000,0.183677,100
+Adiac,Correlation Two-Tower,0.927079,0.393862,0.080756,391
+Adiac,Transformer-only,0.906003,0.304348,0.089754,391
+Adiac,Two-Tower,0.920727,0.375959,0.081418,391
+AllGestureWiimoteX,Correlation Two-Tower,0.759079,0.368576,0.277918,681
+AllGestureWiimoteX,Transformer-only,0.704999,0.286344,0.295211,681
+AllGestureWiimoteX,Two-Tower,0.761985,0.337739,0.276840,681
+AllGestureWiimoteY,Correlation Two-Tower,0.845736,0.452713,0.238305,645
+AllGestureWiimoteY,Transformer-only,0.827980,0.424806,0.249787,645
+AllGestureWiimoteY,Two-Tower,0.846381,0.468217,0.237549,645
+AllGestureWiimoteZ,Correlation Two-Tower,0.778353,0.312409,0.280057,685
+AllGestureWiimoteZ,Transformer-only,0.743777,0.280292,0.291020,685
+AllGestureWiimoteZ,Two-Tower,0.782985,0.316788,0.278300,685
+ArrowHead,Correlation Two-Tower,0.839742,0.588571,0.498989,175
+ArrowHead,Transformer-only,0.835238,0.605714,0.475914,175
+ArrowHead,Two-Tower,0.865077,0.720000,0.483826,175
+BME,Correlation Two-Tower,0.870200,0.626667,0.464990,150
+BME,Transformer-only,0.894467,0.646667,0.463985,150
+BME,Two-Tower,0.871000,0.613333,0.473450,150
+Beef,Correlation Two-Tower,0.797222,0.400000,0.407084,30
+Beef,Transformer-only,0.802778,0.400000,0.398993,30
+Beef,Two-Tower,0.813889,0.400000,0.402104,30
+BeetleFly,Correlation Two-Tower,0.940000,0.900000,0.405933,20
+BeetleFly,Transformer-only,0.840000,0.750000,0.505442,20
+BeetleFly,Two-Tower,0.940000,0.900000,0.405587,20
+BirdChicken,Correlation Two-Tower,0.670000,0.550000,0.670309,20
+BirdChicken,Transformer-only,0.470000,0.450000,0.724229,20
+BirdChicken,Two-Tower,0.670000,0.600000,0.669670,20
+CBF,Correlation Two-Tower,0.967264,0.907778,0.296743,900
+CBF,Transformer-only,0.933488,0.768889,0.362364,900
+CBF,Two-Tower,0.969443,0.916667,0.291602,900
+Car,Correlation Two-Tower,0.842680,0.666667,0.438817,60
+Car,Transformer-only,0.858084,0.633333,0.433758,60
+Car,Two-Tower,0.845916,0.633333,0.439288,60
+Chinatown,Correlation Two-Tower,0.961719,0.842566,0.393910,343
+Chinatown,Transformer-only,0.987824,0.889213,0.552616,343
+Chinatown,Two-Tower,0.972998,0.848397,0.330689,343
+ChlorineConcentration,Correlation Two-Tower,0.634583,0.569010,0.561168,3840
+ChlorineConcentration,Transformer-only,0.649080,0.572135,0.557850,3840
+ChlorineConcentration,Two-Tower,0.649184,0.570052,0.555016,3840
+CinCECGTorso,Correlation Two-Tower,0.995166,0.949275,0.099338,1380
+CinCECGTorso,Transformer-only,0.992446,0.898551,0.131151,1380
+CinCECGTorso,Two-Tower,0.995196,0.948551,0.099205,1380
+Coffee,Correlation Two-Tower,0.748718,0.678571,0.677965,28
+Coffee,Transformer-only,0.979487,0.892857,0.637230,28
+Coffee,Two-Tower,0.923077,0.821429,0.633252,28
+CricketX,Correlation Two-Tower,0.874881,0.528205,0.195306,390
+CricketX,Transformer-only,0.858058,0.487179,0.204879,390
+CricketX,Two-Tower,0.876549,0.538462,0.194652,390
+CricketY,Correlation Two-Tower,0.888922,0.507692,0.192195,390
+CricketY,Transformer-only,0.885698,0.523077,0.191245,390
+CricketY,Two-Tower,0.891519,0.525641,0.191079,390
+CricketZ,Correlation Two-Tower,0.862408,0.553846,0.193153,390
+CricketZ,Transformer-only,0.852826,0.507692,0.202047,390
+CricketZ,Two-Tower,0.863436,0.558974,0.192180,390
+Crop,Correlation Two-Tower,0.958742,0.684229,0.067264,16778
+Crop,Transformer-only,0.958527,0.682799,0.067767,16778
+Crop,Two-Tower,0.958635,0.685719,0.067332,16778
+DiatomSizeReduction,Correlation Two-Tower,0.984782,0.470588,0.468465,306
+DiatomSizeReduction,Transformer-only,0.976560,0.418301,0.474574,306
+DiatomSizeReduction,Two-Tower,0.984388,0.500000,0.465192,306
+DistalPhalanxOutlineAgeGroup,Correlation Two-Tower,0.752318,0.656566,0.458067,99
+DistalPhalanxOutlineAgeGroup,Transformer-only,0.773921,0.676768,0.448717,99
+DistalPhalanxOutlineAgeGroup,Two-Tower,0.771343,0.666667,0.444356,99
+DistalPhalanxOutlineCorrect,Correlation Two-Tower,0.815215,0.773869,0.504787,199
+DistalPhalanxOutlineCorrect,Transformer-only,0.803454,0.743719,0.520247,199
+DistalPhalanxOutlineCorrect,Two-Tower,0.800487,0.753769,0.523416,199
+DistalPhalanxTW,Correlation Two-Tower,0.791187,0.553191,0.367837,94
+DistalPhalanxTW,Transformer-only,0.796860,0.542553,0.370397,94
+DistalPhalanxTW,Two-Tower,0.798530,0.563830,0.362054,94
+DodgerLoopDay,Correlation Two-Tower,0.794228,0.475000,0.302035,80
+DodgerLoopDay,Transformer-only,0.814444,0.512500,0.305001,80
+DodgerLoopDay,Two-Tower,0.777050,0.412500,0.316566,80
+DodgerLoopGame,Correlation Two-Tower,0.781776,0.746377,0.600279,138
+DodgerLoopGame,Transformer-only,0.853325,0.768116,0.526572,138
+DodgerLoopGame,Two-Tower,0.777567,0.731884,0.598922,138
+DodgerLoopWeekend,Correlation Two-Tower,0.983388,0.978261,0.169375,138
+DodgerLoopWeekend,Transformer-only,0.979031,0.971014,0.173326,138
+DodgerLoopWeekend,Two-Tower,0.982026,0.978261,0.162874,138
+ECG200,Correlation Two-Tower,0.813368,0.700000,0.580462,100
+ECG200,Transformer-only,0.886285,0.720000,0.518291,100
+ECG200,Two-Tower,0.850260,0.670000,0.572238,100
+ECG5000,Correlation Two-Tower,0.920443,0.937556,0.079314,4500
+ECG5000,Transformer-only,0.914161,0.932889,0.083292,4500
+ECG5000,Two-Tower,0.918075,0.935778,0.078855,4500
+ECGFiveDays,Correlation Two-Tower,0.865241,0.663182,0.587953,861
+ECGFiveDays,Transformer-only,0.869121,0.516841,0.655888,861
+ECGFiveDays,Two-Tower,0.925250,0.716609,0.528747,861
+EOGHorizontalSignal,Correlation Two-Tower,0.855049,0.464088,0.249660,362
+EOGHorizontalSignal,Transformer-only,0.857402,0.466851,0.244996,362
+EOGHorizontalSignal,Two-Tower,0.855209,0.464088,0.249147,362
+EOGVerticalSignal,Correlation Two-Tower,0.850459,0.439227,0.257986,362
+EOGVerticalSignal,Transformer-only,0.851484,0.425414,0.257046,362
+EOGVerticalSignal,Two-Tower,0.850673,0.441989,0.257260,362
+Earthquakes,Correlation Two-Tower,0.576099,0.733813,0.585078,139
+Earthquakes,Transformer-only,0.612088,0.748201,0.560739,139
+Earthquakes,Two-Tower,0.578022,0.733813,0.583525,139
+EthanolLevel,Correlation Two-Tower,0.562731,0.290000,0.564172,500
+EthanolLevel,Transformer-only,0.663729,0.370000,0.542278,500
+EthanolLevel,Two-Tower,0.562463,0.298000,0.567459,500
+FaceAll,Correlation Two-Tower,0.947079,0.716568,0.152448,1690
+FaceAll,Transformer-only,0.939713,0.717160,0.161993,1690
+FaceAll,Two-Tower,0.948036,0.718343,0.151754,1690
+FaceFour,Correlation Two-Tower,0.905358,0.740741,0.355924,81
+FaceFour,Transformer-only,0.922407,0.716049,0.337025,81
+FaceFour,Two-Tower,0.906479,0.716049,0.358023,81
+FacesUCR,Correlation Two-Tower,0.942440,0.756098,0.117847,2050
+FacesUCR,Transformer-only,0.929466,0.739024,0.123175,2050
+FacesUCR,Two-Tower,0.941025,0.745366,0.119065,2050
+FiftyWords,Correlation Two-Tower,0.895009,0.659341,0.044666,455
+FiftyWords,Transformer-only,0.896745,0.663736,0.045655,455
+FiftyWords,Two-Tower,0.896044,0.657143,0.044706,455
+Fish,Correlation Two-Tower,0.927472,0.765714,0.184820,175
+Fish,Transformer-only,0.921288,0.737143,0.197540,175
+Fish,Two-Tower,0.928492,0.760000,0.184456,175
+FordA,Correlation Two-Tower,0.576481,0.584848,0.685920,1320
+FordA,Transformer-only,0.491308,0.515909,0.701881,1320
+FordA,Two-Tower,0.582592,0.568939,0.694685,1320
+FordB,Correlation Two-Tower,0.515021,0.512346,0.693032,810
+FordB,Transformer-only,0.504625,0.502469,0.701599,810
+FordB,Two-Tower,0.492455,0.502469,0.693945,810
+FreezerRegularTrain,Correlation Two-Tower,0.942813,0.931228,0.258409,2850
+FreezerRegularTrain,Transformer-only,0.947290,0.917895,0.266628,2850
+FreezerRegularTrain,Two-Tower,0.943235,0.931930,0.256584,2850
+FreezerSmallTrain,Correlation Two-Tower,0.829047,0.751930,0.528033,2850
+FreezerSmallTrain,Transformer-only,0.822091,0.742807,0.546092,2850
+FreezerSmallTrain,Two-Tower,0.834136,0.755789,0.523981,2850
+GestureMidAirD1,Correlation Two-Tower,0.950954,0.584615,0.077886,130
+GestureMidAirD1,Transformer-only,0.953846,0.569231,0.078051,130
+GestureMidAirD1,Two-Tower,0.950523,0.561538,0.078192,130
+GestureMidAirD2,Correlation Two-Tower,0.959385,0.530769,0.082040,130
+GestureMidAirD2,Transformer-only,0.954954,0.561538,0.081724,130
+GestureMidAirD2,Two-Tower,0.958462,0.523077,0.082428,130
+GestureMidAirD3,Correlation Two-Tower,0.913354,0.453846,0.103975,130
+GestureMidAirD3,Transformer-only,0.907262,0.469231,0.106858,130
+GestureMidAirD3,Two-Tower,0.912123,0.469231,0.103979,130
+GesturePebbleZ1,Correlation Two-Tower,0.967606,0.837209,0.172673,172
+GesturePebbleZ1,Transformer-only,0.952353,0.796512,0.207217,172
+GesturePebbleZ1,Two-Tower,0.962838,0.825581,0.181829,172
+GesturePebbleZ2,Correlation Two-Tower,0.965791,0.803797,0.198944,158
+GesturePebbleZ2,Transformer-only,0.961411,0.784810,0.204846,158
+GesturePebbleZ2,Two-Tower,0.957379,0.791139,0.212573,158
+GunPoint,Correlation Two-Tower,0.977063,0.900000,0.322296,150
+GunPoint,Transformer-only,0.955192,0.846667,0.458300,150
+GunPoint,Two-Tower,0.977418,0.913333,0.309819,150
+GunPointAgeSpan,Correlation Two-Tower,0.979247,0.917722,0.203065,316
+GunPointAgeSpan,Transformer-only,0.981010,0.898734,0.208752,316
+GunPointAgeSpan,Two-Tower,0.984696,0.927215,0.179953,316
+GunPointMaleVersusFemale,Correlation Two-Tower,0.998835,0.981013,0.044345,316
+GunPointMaleVersusFemale,Transformer-only,0.996867,0.971519,0.070186,316
+GunPointMaleVersusFemale,Two-Tower,0.998956,0.984177,0.041057,316
+GunPointOldVersusYoung,Correlation Two-Tower,0.982384,0.952381,0.191912,315
+GunPointOldVersusYoung,Transformer-only,0.969091,0.917460,0.240140,315
+GunPointOldVersusYoung,Two-Tower,0.987313,0.961905,0.175401,315
+Ham,Correlation Two-Tower,0.839143,0.742857,0.498527,105
+Ham,Transformer-only,0.855483,0.761905,0.470234,105
+Ham,Two-Tower,0.833333,0.714286,0.516650,105
+HandOutlines,Correlation Two-Tower,0.928714,0.905405,0.315693,370
+HandOutlines,Transformer-only,0.943149,0.897297,0.299740,370
+HandOutlines,Two-Tower,0.928682,0.905405,0.312376,370
+Haptics,Correlation Two-Tower,0.730762,0.422078,0.496344,308
+Haptics,Transformer-only,0.736863,0.422078,0.489022,308
+Haptics,Two-Tower,0.730703,0.431818,0.496161,308
+Herring,Correlation Two-Tower,0.624494,0.593750,0.670309,64
+Herring,Transformer-only,0.519231,0.593750,0.675958,64
+Herring,Two-Tower,0.574899,0.593750,0.673436,64
+HouseTwenty,Correlation Two-Tower,0.870145,0.840336,0.456115,119
+HouseTwenty,Transformer-only,0.797971,0.537815,0.663523,119
+HouseTwenty,Two-Tower,0.871304,0.840336,0.454864,119
+InlineSkate,Correlation Two-Tower,0.555104,0.161818,0.445500,550
+InlineSkate,Transformer-only,0.551673,0.152727,0.451289,550
+InlineSkate,Two-Tower,0.556289,0.160000,0.445015,550
+InsectEPGRegularTrain,Correlation Two-Tower,0.835965,0.686747,0.421585,249
+InsectEPGRegularTrain,Transformer-only,0.811624,0.686747,0.434593,249
+InsectEPGRegularTrain,Two-Tower,0.838442,0.690763,0.415487,249
+InsectEPGSmallTrain,Correlation Two-Tower,0.800545,0.654618,0.476254,249
+InsectEPGSmallTrain,Transformer-only,0.777285,0.650602,0.506007,249
+InsectEPGSmallTrain,Two-Tower,0.802432,0.650602,0.475339,249
+InsectWingbeatSound,Correlation Two-Tower,0.939594,0.625758,0.158458,1980
+InsectWingbeatSound,Transformer-only,0.938951,0.633838,0.156202,1980
+InsectWingbeatSound,Two-Tower,0.939300,0.626263,0.159005,1980
+ItalyPowerDemand,Correlation Two-Tower,0.975798,0.927043,0.292319,1028
+ItalyPowerDemand,Transformer-only,0.987581,0.940661,0.293881,1028
+ItalyPowerDemand,Two-Tower,0.989754,0.950389,0.222850,1028
+LargeKitchenAppliances,Correlation Two-Tower,0.449206,0.176471,0.681810,17
+LargeKitchenAppliances,Transformer-only,0.436508,0.235294,0.672379,17
+LargeKitchenAppliances,Two-Tower,0.461905,0.176471,0.676849,17
+Lightning2,Correlation Two-Tower,0.751082,0.704918,0.617623,61
+Lightning2,Transformer-only,0.770563,0.737705,0.618196,61
+Lightning2,Two-Tower,0.751082,0.704918,0.619484,61
+Lightning7,Correlation Two-Tower,0.944529,0.684932,0.216834,73
+Lightning7,Transformer-only,0.931496,0.671233,0.222534,73
+Lightning7,Two-Tower,0.945413,0.684932,0.216022,73
+Mallat,Correlation Two-Tower,0.991339,0.798294,0.115859,2345
+Mallat,Transformer-only,0.991422,0.806823,0.119706,2345
+Mallat,Two-Tower,0.991514,0.795309,0.115975,2345
+Meat,Correlation Two-Tower,0.846667,0.583333,0.561399,60
+Meat,Transformer-only,0.887083,0.866667,0.619437,60
+Meat,Two-Tower,0.970833,0.866667,0.520253,60
+MedicalImages,Correlation Two-Tower,0.909391,0.617105,0.170521,760
+MedicalImages,Transformer-only,0.903665,0.600000,0.174227,760
+MedicalImages,Two-Tower,0.909575,0.614474,0.169945,760
+MelbournePedestrian,Correlation Two-Tower,0.948639,0.779794,0.120832,2425
+MelbournePedestrian,Transformer-only,0.946984,0.783505,0.126103,2425
+MelbournePedestrian,Two-Tower,0.952644,0.789278,0.116650,2425
+MiddlePhalanxOutlineAgeGroup,Correlation Two-Tower,0.606862,0.605442,0.542638,147
+MiddlePhalanxOutlineAgeGroup,Transformer-only,0.590605,0.605442,0.561271,147
+MiddlePhalanxOutlineAgeGroup,Two-Tower,0.573144,0.625850,0.551797,147
+MiddlePhalanxOutlineCorrect,Correlation Two-Tower,0.848197,0.760870,0.492895,276
+MiddlePhalanxOutlineCorrect,Transformer-only,0.861259,0.768116,0.484670,276
+MiddlePhalanxOutlineCorrect,Two-Tower,0.867494,0.786232,0.468025,276
+MiddlePhalanxTW,Correlation Two-Tower,0.638951,0.409091,0.443877,110
+MiddlePhalanxTW,Transformer-only,0.668737,0.445455,0.437108,110
+MiddlePhalanxTW,Two-Tower,0.653806,0.427273,0.441644,110
+MixedShapesRegularTrain,Correlation Two-Tower,0.958182,0.840412,0.173065,2425
+MixedShapesRegularTrain,Transformer-only,0.956696,0.847010,0.175140,2425
+MixedShapesRegularTrain,Two-Tower,0.958653,0.841237,0.172385,2425
+MixedShapesSmallTrain,Correlation Two-Tower,0.920021,0.743505,0.253733,2425
+MixedShapesSmallTrain,Transformer-only,0.900615,0.670928,0.285215,2425
+MixedShapesSmallTrain,Two-Tower,0.919892,0.743093,0.254110,2425
+MoteStrain,Correlation Two-Tower,0.954151,0.878029,0.365215,1238
+MoteStrain,Transformer-only,0.941171,0.869952,0.417323,1238
+MoteStrain,Two-Tower,0.961265,0.890953,0.348998,1238
+NonInvasiveFetalECGThorax1,Correlation Two-Tower,0.993932,0.869211,0.021050,1965
+NonInvasiveFetalECGThorax1,Transformer-only,0.995227,0.836132,0.022228,1965
+NonInvasiveFetalECGThorax1,Two-Tower,0.993971,0.870738,0.020920,1965
+NonInvasiveFetalECGThorax2,Correlation Two-Tower,0.995167,0.899746,0.016303,1965
+NonInvasiveFetalECGThorax2,Transformer-only,0.996887,0.924173,0.012829,1965
+NonInvasiveFetalECGThorax2,Two-Tower,0.995242,0.899237,0.016118,1965
+OSULeaf,Correlation Two-Tower,0.734506,0.458678,0.416987,242
+OSULeaf,Transformer-only,0.719137,0.421488,0.421822,242
+OSULeaf,Two-Tower,0.723120,0.458678,0.423009,242
+OliveOil,Correlation Two-Tower,0.799801,0.400000,0.508988,30
+OliveOil,Transformer-only,0.553712,0.400000,0.535570,30
+OliveOil,Two-Tower,0.956594,0.400000,0.507742,30
+PLAID,Correlation Two-Tower,0.897587,0.675978,0.169414,537
+PLAID,Transformer-only,0.885718,0.651769,0.174250,537
+PLAID,Two-Tower,0.887662,0.662942,0.172782,537
+PhalangesOutlinesCorrect,Correlation Two-Tower,0.836751,0.785235,0.464682,596
+PhalangesOutlinesCorrect,Transformer-only,0.829188,0.773490,0.476032,596
+PhalangesOutlinesCorrect,Two-Tower,0.851369,0.805369,0.442758,596
+Phoneme,Correlation Two-Tower,0.533563,0.109293,0.115446,1894
+Phoneme,Transformer-only,0.487873,0.090813,0.113052,1894
+Phoneme,Two-Tower,0.535178,0.109293,0.115262,1894
+PickupGestureWiimoteZ,Correlation Two-Tower,0.897333,0.640000,0.201743,50
+PickupGestureWiimoteZ,Transformer-only,0.892000,0.620000,0.203207,50
+PickupGestureWiimoteZ,Two-Tower,0.897333,0.640000,0.202042,50
+PigAirwayPressure,Correlation Two-Tower,0.470541,0.019231,0.099980,208
+PigAirwayPressure,Transformer-only,0.435850,0.014423,0.109822,208
+PigAirwayPressure,Two-Tower,0.467642,0.019231,0.099967,208
+PigArtPressure,Correlation Two-Tower,0.477965,0.033654,0.098173,208
+PigArtPressure,Transformer-only,0.474571,0.096154,0.103704,208
+PigArtPressure,Two-Tower,0.478790,0.028846,0.098169,208
+PigCVP,Correlation Two-Tower,0.488523,0.014423,0.098102,208
+PigCVP,Transformer-only,0.430666,0.024038,0.105407,208
+PigCVP,Two-Tower,0.487368,0.014423,0.098138,208
+Plane,Correlation Two-Tower,0.997682,0.971429,0.054460,105
+Plane,Transformer-only,0.994878,0.961905,0.063985,105
+Plane,Two-Tower,0.997893,0.961905,0.055607,105
+PowerCons,Correlation Two-Tower,0.989136,0.972222,0.138104,180
+PowerCons,Transformer-only,0.983333,0.961111,0.162620,180
+PowerCons,Two-Tower,0.988148,0.972222,0.142302,180
+ProximalPhalanxOutlineAgeGroup,Correlation Two-Tower,0.808583,0.764151,0.354028,106
+ProximalPhalanxOutlineAgeGroup,Transformer-only,0.818576,0.773585,0.348258,106
+ProximalPhalanxOutlineAgeGroup,Two-Tower,0.814645,0.754717,0.362090,106
+ProximalPhalanxOutlineCorrect,Correlation Two-Tower,0.964151,0.909091,0.187540,121
+ProximalPhalanxOutlineCorrect,Transformer-only,0.965409,0.942149,0.170947,121
+ProximalPhalanxOutlineCorrect,Two-Tower,0.968553,0.942149,0.172647,121
+ProximalPhalanxTW,Correlation Two-Tower,0.892316,0.723577,0.274328,123
+ProximalPhalanxTW,Transformer-only,0.905414,0.707317,0.264355,123
+ProximalPhalanxTW,Two-Tower,0.909372,0.756098,0.269882,123
+RefrigerationDevices,Correlation Two-Tower,0.647381,0.467033,0.747033,364
+RefrigerationDevices,Transformer-only,0.619125,0.398352,0.772463,364
+RefrigerationDevices,Two-Tower,0.645533,0.467033,0.751124,364
+Rock,Correlation Two-Tower,0.953232,0.880000,0.178722,50
+Rock,Transformer-only,0.957037,0.920000,0.176804,50
+Rock,Two-Tower,0.953146,0.880000,0.179190,50
+ScreenType,Correlation Two-Tower,0.631606,0.466667,0.636566,60
+ScreenType,Transformer-only,0.620178,0.516667,0.599691,60
+ScreenType,Two-Tower,0.630590,0.433333,0.635541,60
+SemgHandGenderCh2,Correlation Two-Tower,0.888987,0.796667,0.436155,600
+SemgHandGenderCh2,Transformer-only,0.870085,0.775000,0.471895,600
+SemgHandGenderCh2,Two-Tower,0.895470,0.805000,0.426804,600
+SemgHandMovementCh2,Correlation Two-Tower,0.724296,0.326667,0.419235,450
+SemgHandMovementCh2,Transformer-only,0.725061,0.368889,0.417614,450
+SemgHandMovementCh2,Two-Tower,0.725410,0.335556,0.417734,450
+SemgHandSubjectCh2,Correlation Two-Tower,0.918080,0.753333,0.273567,450
+SemgHandSubjectCh2,Transformer-only,0.906463,0.691111,0.294701,450
+SemgHandSubjectCh2,Two-Tower,0.918407,0.760000,0.273248,450
+ShakeGestureWiimoteZ,Correlation Two-Tower,0.939111,0.640000,0.198029,50
+ShakeGestureWiimoteZ,Transformer-only,0.925333,0.520000,0.204667,50
+ShakeGestureWiimoteZ,Two-Tower,0.936444,0.680000,0.198634,50
+ShapeletSim,Correlation Two-Tower,0.530741,0.494444,0.710406,180
+ShapeletSim,Transformer-only,0.427531,0.416667,0.717213,180
+ShapeletSim,Two-Tower,0.524321,0.488889,0.710864,180
+ShapesAll,Correlation Two-Tower,0.927226,0.718333,0.035527,600
+ShapesAll,Transformer-only,0.925138,0.716667,0.035330,600
+ShapesAll,Two-Tower,0.926949,0.721667,0.035650,600
+SmallKitchenAppliances,Correlation Two-Tower,0.717824,0.754386,0.389784,57
+SmallKitchenAppliances,Transformer-only,0.565860,0.807018,0.418835,57
+SmallKitchenAppliances,Two-Tower,0.724047,0.771930,0.390457,57
+SonyAIBORobotSurface1,Correlation Two-Tower,0.944179,0.560935,0.618819,599
+SonyAIBORobotSurface1,Transformer-only,0.915070,0.439065,0.733326,599
+SonyAIBORobotSurface1,Two-Tower,0.953704,0.611018,0.591437,599
+SonyAIBORobotSurface2,Correlation Two-Tower,0.867150,0.788360,0.450038,945
+SonyAIBORobotSurface2,Transformer-only,0.839938,0.774603,0.483141,945
+SonyAIBORobotSurface2,Two-Tower,0.859819,0.787302,0.460621,945
+StarLightCurves,Correlation Two-Tower,0.976844,0.932249,0.139121,8236
+StarLightCurves,Transformer-only,0.976522,0.936741,0.129715,8236
+StarLightCurves,Two-Tower,0.978197,0.938320,0.128454,8236
+Strawberry,Correlation Two-Tower,0.957251,0.878378,0.256954,370
+Strawberry,Transformer-only,0.970938,0.908108,0.224272,370
+Strawberry,Two-Tower,0.965272,0.905405,0.232974,370
+SwedishLeaf,Correlation Two-Tower,0.986687,0.859200,0.073440,625
+SwedishLeaf,Transformer-only,0.984907,0.838400,0.078216,625
+SwedishLeaf,Two-Tower,0.987241,0.854400,0.072569,625
+Symbols,Correlation Two-Tower,0.973985,0.762814,0.185678,995
+Symbols,Transformer-only,0.970459,0.767839,0.185309,995
+Symbols,Two-Tower,0.974598,0.761809,0.184895,995
+SyntheticControl,Correlation Two-Tower,0.968427,0.933333,0.143990,300
+SyntheticControl,Transformer-only,0.955733,0.886667,0.177167,300
+SyntheticControl,Two-Tower,0.976240,0.943333,0.148371,300
+ToeSegmentation1,Correlation Two-Tower,0.590123,0.543860,0.714124,228
+ToeSegmentation1,Transformer-only,0.601620,0.578947,0.699716,228
+ToeSegmentation1,Two-Tower,0.582253,0.526316,0.725197,228
+ToeSegmentation2,Correlation Two-Tower,0.629324,0.684615,0.614803,130
+ToeSegmentation2,Transformer-only,0.603774,0.600000,0.686241,130
+ToeSegmentation2,Two-Tower,0.645440,0.738462,0.601987,130
+Trace,Correlation Two-Tower,0.953612,0.740000,0.191856,100
+Trace,Transformer-only,0.946650,0.740000,0.197122,100
+Trace,Two-Tower,0.968534,0.740000,0.184382,100
+TwoLeadECG,Correlation Two-Tower,0.660210,0.593503,0.666149,1139
+TwoLeadECG,Transformer-only,0.609604,0.579456,0.689187,1139
+TwoLeadECG,Two-Tower,0.733019,0.631255,0.616907,1139
+TwoPatterns,Correlation Two-Tower,0.922349,0.751832,0.305269,3957
+TwoPatterns,Transformer-only,0.926797,0.801112,0.301856,3957
+TwoPatterns,Two-Tower,0.919840,0.758908,0.311917,3957
+UMD,Correlation Two-Tower,0.927373,0.729167,0.361467,144
+UMD,Transformer-only,0.900101,0.611111,0.428029,144
+UMD,Two-Tower,0.936487,0.715278,0.351549,144
+UWaveGestureLibraryAll,Correlation Two-Tower,0.987237,0.918972,0.079148,3579
+UWaveGestureLibraryAll,Transformer-only,0.987139,0.913104,0.080556,3579
+UWaveGestureLibraryAll,Two-Tower,0.987434,0.919251,0.078604,3579
+UWaveGestureLibraryX,Correlation Two-Tower,0.918351,0.742742,0.180503,3238
+UWaveGestureLibraryX,Transformer-only,0.902476,0.693329,0.192085,3238
+UWaveGestureLibraryX,Two-Tower,0.921573,0.746140,0.179435,3238
+UWaveGestureLibraryY,Correlation Two-Tower,0.915703,0.640674,0.210198,3206
+UWaveGestureLibraryY,Transformer-only,0.914211,0.642233,0.209482,3206
+UWaveGestureLibraryY,Two-Tower,0.915566,0.636619,0.210623,3206
+UWaveGestureLibraryZ,Correlation Two-Tower,0.907842,0.667081,0.204798,3220
+UWaveGestureLibraryZ,Transformer-only,0.901737,0.660248,0.211273,3220
+UWaveGestureLibraryZ,Two-Tower,0.909259,0.671739,0.203550,3220
+Wafer,Correlation Two-Tower,0.998661,0.984499,0.033826,5935
+Wafer,Transformer-only,0.999193,0.988037,0.024590,5935
+Wafer,Two-Tower,0.998475,0.985847,0.035213,5935
+Wine,Correlation Two-Tower,0.687243,0.555556,0.680445,54
+Wine,Transformer-only,0.648834,0.500000,0.696555,54
+Wine,Two-Tower,0.588477,0.462963,0.696634,54
+WordSynonyms,Correlation Two-Tower,0.809583,0.553292,0.105418,638
+WordSynonyms,Transformer-only,0.797853,0.547022,0.108269,638
+WordSynonyms,Two-Tower,0.810953,0.572100,0.105782,638
+Worms,Correlation Two-Tower,0.697304,0.441558,0.514223,77
+Worms,Transformer-only,0.678198,0.493506,0.558206,77
+Worms,Two-Tower,0.697067,0.441558,0.516826,77
+WormsTwoClass,Correlation Two-Tower,0.583333,0.545455,0.673996,77
+WormsTwoClass,Transformer-only,0.657025,0.623377,0.699509,77
+WormsTwoClass,Two-Tower,0.586088,0.545455,0.674203,77
+Yoga,Correlation Two-Tower,0.785752,0.733333,0.570219,3000
+Yoga,Transformer-only,0.768913,0.697000,0.588954,3000
+Yoga,Two-Tower,0.792950,0.733667,0.561833,3000

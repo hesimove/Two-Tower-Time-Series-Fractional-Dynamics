@@ -1,0 +1,11 @@
+{
+  "main_summary": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\table_reference_main_summary.csv",
+  "main_per_dataset_long": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\table_reference_main_per_dataset_long.csv",
+  "main_per_dataset_wide": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\table_reference_main_per_dataset_wide.csv",
+  "ablation_summary": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\table_reference_ablation_summary.csv",
+  "ablation_per_dataset_long": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\table_reference_ablation_per_dataset_long.csv",
+  "ablation_per_dataset_wide": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\table_reference_ablation_per_dataset_wide.csv",
+  "main_dataset_wins": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\table_reference_main_dataset_wins.csv",
+  "ablation_dataset_wins": "D:\\2025暑期科研\\UCRArchive_2018\\TwoTower_Project_V2\\final_runs_v2\\paper_figures_v2\\seed_42\\table_reference_ablation_dataset_wins.csv",
+  "note": "Reference tables generated from V2 final_results.csv. No LaTeX formatting applied yet."
+}

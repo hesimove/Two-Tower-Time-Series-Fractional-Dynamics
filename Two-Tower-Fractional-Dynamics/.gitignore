@@ -1,0 +1,36 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# UCR/raw data
+UCRArchive_2018/
+data/
+datasets/
+*.tsv
+
+# Temporary/debug output only
+_debug/
+tmp/
+temp/
+logs/
+*.log
+
+# MATLAB temporary files
+*.asv
+*.m~
+slprj/
+
+# Local configuration
+.env
+.env.*

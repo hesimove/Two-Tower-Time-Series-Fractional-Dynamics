@@ -1,0 +1,7 @@
+model,label,resolved_dir,final_results_exists,histories_exists
+twotower,Two-Tower,D:\2025暑期科研\UCRArchive_2018\TwoTower_Project_V2\final_runs_v2\twotower\seed_42,True,True
+informer,Informer,D:\2025暑期科研\UCRArchive_2018\TwoTower_Project_V2\final_runs_v2\informer_probsparse_lightweight\seed_42,True,True
+fedformer,FEDformer,D:\2025暑期科研\UCRArchive_2018\TwoTower_Project_V2\final_runs_v2\fedformer\seed_42,True,True
+ts2vec,TS2Vec,D:\2025暑期科研\UCRArchive_2018\TwoTower_Project_V2\final_runs_v2\ts2vec\seed_42,True,True
+correlation,Correlation Two-Tower,D:\2025暑期科研\UCRArchive_2018\TwoTower_Project_V2\final_runs_v2\correlation_aligned_v2\seed_42,True,True
+transformer_only,Transformer-only,D:\2025暑期科研\UCRArchive_2018\TwoTower_Project_V2\final_runs_v2\transformer_only\seed_42,True,True
