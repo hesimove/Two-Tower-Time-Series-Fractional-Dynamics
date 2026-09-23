@@ -1,0 +1,110 @@
+# Two-Tower Time-Series Model: Integrating Transformers with Fractional Dynamics for Long-Range Forecasting
+
+Official implementation and experimental code for:
+
+**Two-Tower Time-Series Model: Integrating Transformers with Fractional Dynamics for Long-Range Forecasting**
+
+**Ziyuan Kang, Chenzhong Yin, Paul Bogdan**
+
+## Overview
+
+This repository contains the final preprocessing, training, ablation, baseline, and figure-generation code used in our UCR time-series experiments.
+
+The proposed model combines:
+- a **Temporal Transformer Tower** for raw time-series signals,
+- a **Fractional Dynamics Tower** using the coupling matrix \(A\),
+- and a **Global Fusion Transformer** for joint representation learning.
+
+## Data
+
+- **Dataset:** UCR Time Series Archive (2018)  
+  https://www.cs.ucr.edu/~eamonn/time_series_data_2018/
+
+The final experiments use **124 UCR datasets**. `Fungi` is excluded because its official training set contains only one sample per class, preventing a class-preserving validation split.
+
+The UCR datasets are not redistributed in this repository.
+
+## Fractional-Dynamics Preprocessing
+
+The MATLAB code used for fractional-order estimation and coupling-matrix \(A\) computation was adapted from:
+
+**Fractional-dynamics-foster-deep-learning-of-COPDstage-prediction**  
+https://github.com/chenzhoy/Fractional-dynamics-foster-deep-learning-of-COPDstage-prediction
+
+The implementation was adapted to the UCR Archive for sequence cleaning, segmentation, aligned sample generation, and batch computation of fractional coupling features.
+
+```text
+external/fractional_dynamics_matlab/
+├── run_ucr_k2k4all.m
+├── modelEst.m
+├── WT_estimator_v3.m
+├── HaarWaveletTransform.m
+└── generate_corr_aligned_v2.m
+```
+
+## TS2Vec Baseline
+
+The TS2Vec baseline uses the official implementation from:
+
+https://github.com/zhihanyue/ts2vec
+
+The required source files and original MIT license are included under:
+
+```text
+external/ts2vec_official/
+```
+
+## Main Results
+
+Average performance across 124 UCR datasets:
+
+| Model | AUC | Weighted AUC | ACC | Weighted ACC |
+|---|---:|---:|---:|---:|
+| FEDformer | 76.90 | 84.71 | 52.41 | 62.61 |
+| TS2Vec | 64.67 | 76.35 | 43.97 | 53.57 |
+| Informer | 76.81 | 83.57 | 50.89 | 60.29 |
+| **Two-Tower** | **84.23** | **90.04** | **66.42** | **74.22** |
+
+## Repository Structure
+
+```text
+.
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── notebooks/
+│   ├── train_all_twotower_v2.ipynb
+│   ├── train_fedformer_v2.ipynb
+│   ├── train_informer_probsparse_v2.ipynb
+│   ├── train_ts2vec_v2.ipynb
+│   ├── train_twotower_correlation_v2_aligned.ipynb
+│   ├── train_twotower_transformer_only_v2.ipynb
+│   ├── compare_three_ablation_results_v2.ipynb
+│   └── generate_paper_figures_v2.ipynb
+├── external/
+│   ├── fractional_dynamics_matlab/
+│   └── ts2vec_official/
+└── results/
+```
+
+## Reproduction
+
+1. Download the UCR Archive from the dataset link above.
+2. Update the local UCR path in the MATLAB preprocessing script.
+3. Run `run_ucr_k2k4all.m` to generate fractional coupling matrices and cleaned aligned data.
+4. Run `generate_corr_aligned_v2.m` for the correlation ablation.
+5. Install Python dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+6. Update the local dataset/output paths in the desired notebook and run it.
+
+The `results/` directory is provided as a placeholder. Final experiment outputs and checkpoints can be added there separately.
+
+> GitHub rejects individual files larger than 100 MB in a normal repository. Use Git LFS for any checkpoint exceeding that limit.
+
+## Citation
+
+A citation entry will be added after publication.

@@ -1,0 +1,15 @@
+# Main project environment
+# Python 3.10.x recommended
+
+torch>=2.0
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+scikit-learn>=1.2
+matplotlib>=3.6
+jupyter>=1.0
+ipykernel>=6.0
+
+# Optional compatibility dependencies used by the broader official TS2Vec repository
+statsmodels>=0.12
+Bottleneck>=1.3
